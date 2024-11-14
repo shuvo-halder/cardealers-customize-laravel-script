@@ -1,0 +1,34 @@
+.footer--link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid var(--bg-theme-dark);
+  margin-right: 10px;
+}
+
+.footer--link:last-of-type {
+  margin-right: 0px;
+}
+
+.footer--link:hover, .footer--link:focus {
+  color: white;
+  border-bottom: 1px solid var(--bs-warning);
+}
+
+/* icon */
+
+.footer--icon {
+  fill: white;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 28px;
+}
+
+.footer--icon:last-of-type {
+  margin-right: 0px;
+}
+
+.footer--icon:hover svg, .footer-icon:focus svg {
+  fill: var(--bs-warning);
+}
+

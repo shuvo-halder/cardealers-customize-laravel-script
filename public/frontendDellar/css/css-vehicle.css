@@ -1,0 +1,50 @@
+.vehicle--carousel .carousel-item {
+  height: 320px;
+  width: 100%;
+}
+
+.vehicle--carousel .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.feat--heading {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0px;
+  /*text-transform: uppercase;*/
+}
+
+.feat--subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0px;
+  /*text-transform: uppercase;*/
+}
+
+.feat--hr {
+  margin: 13px 0px;
+  border-color: var(--bs-gray-200);
+  border-width: 1px;
+  opacity: 1;
+  width: 80%;
+}
+
+.feat--extra {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.feat--extra svg {
+  font-size: 17px !important;
+  margin-right: 18px !important;
+}
+
+.feat--extra:hover svg, .feat--extra:focus svg {
+  fill: var(--bg-theme-dark);
+}
+
