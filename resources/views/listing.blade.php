@@ -134,6 +134,35 @@
             opacity: 1;
             right: 0;
         }
+        .next-prev-btn ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center-aligns pagination items horizontally */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.next-prev-btn li {
+    margin-right: 15px; /* Adds space between items */
+}
+
+.next-prev-btn li:last-child {
+    margin-right: 0; /* Removes margin from the last item */
+}
+
+.next-prev-btn a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.next-prev-btn a.active {
+    font-weight: bold;
+    color: #f4511e;
+}
+
+
     </style>
 @endpush
 @section('body-content')
@@ -496,14 +525,15 @@
 
 
 
-
+                        <hr>
 
 
                         @if ($cars->hasPages())
                             {{ $cars->links('pagination_box') }}
                         @endif
 
-
+                        <hr>
+                        
                     </div>
                 </div>
             </div>
